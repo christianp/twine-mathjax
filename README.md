@@ -7,7 +7,11 @@ To use
 ------
 
 In your **StoryIncludes** passage, add the line
-`mathjax.twee`
+
+```
+mathjax.twee
+```
+
 and either make sure that that file is in the same directory as your story file, or use its full path.
 
 For inline maths, use `<<math>>`.
