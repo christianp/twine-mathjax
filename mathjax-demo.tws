@@ -1,0 +1,286 @@
+(dp0
+S'buildDestination'
+p1
+VC:\u005cUsers\u005cChristian\u005cDocuments\u005cjavascript\u005ctwine\u005cbuilds\u005carg.html
+p2
+sS'saveDestination'
+p3
+VC:\u005cUsers\u005cChristian\u005cmathjax-demo.tws
+p4
+sS'target'
+p5
+S'sugarcane'
+p6
+sS'storyPanel'
+p7
+(dp8
+S'widgets'
+p9
+(lp10
+(dp11
+S'selected'
+p12
+I00
+sS'pos'
+p13
+(lp14
+I10
+aI10
+asS'passage'
+p15
+(itiddlywiki
+Tiddler
+p16
+(dp18
+S'text'
+p19
+VThis is a simple Twine story to show off the MathJax macro.\u000a\u000aUse <code>math</code> to get inline maths: <<math e^{i \u005cpi} + 1 = 0>>\u000a\u000aUse <code>dmath</code> to get display mode maths: <<dmath e^{i \u005cpi} + 1 = 0>>\u000a\u000aYou can spread your TeX across several lines, with no problems\u000a<<dmath \u005cbegin{align}\u000ax &= 1, & y &= 2, \u005c\u005c\u000az &= 3, & w &= 4.\u000a\u005cend{align}>>\u000a\u000aTwine puts content in the page dynamically, so the macro needs to tell MathJax there's new stuff to typeset when you [[move to another passage|end]].
+p20
+sS'title'
+p21
+VStart
+p22
+sS'modified'
+p23
+ctime
+struct_time
+p24
+((I2014
+I3
+I29
+I16
+I58
+I25
+I5
+I88
+I0
+tp25
+(dp26
+tp27
+Rp28
+sS'tags'
+p29
+(lp30
+sS'created'
+p31
+g24
+((I2014
+I3
+I29
+I11
+I30
+I41
+I5
+I88
+I0
+tp32
+(dp33
+tp34
+Rp35
+sbsa(dp36
+g12
+I00
+sg13
+(lp37
+I10
+aI150
+asg15
+(itiddlywiki
+Tiddler
+p38
+(dp39
+g19
+VMathJax Twine demo
+p40
+sg21
+VStoryTitle
+p41
+sg23
+g24
+((I2014
+I3
+I29
+I17
+I2
+I22
+I5
+I88
+I0
+tp42
+(dp43
+tp44
+Rp45
+sg29
+(lp46
+sg31
+g24
+((I2014
+I3
+I29
+I11
+I30
+I41
+I5
+I88
+I0
+tp47
+(dp48
+tp49
+Rp50
+sbsa(dp51
+g12
+I00
+sg13
+(lp52
+I10
+aI290
+asg15
+(itiddlywiki
+Tiddler
+p53
+(dp54
+g19
+VChristian Perfect
+p55
+sg21
+VStoryAuthor
+p56
+sg23
+g24
+((I2014
+I3
+I29
+I17
+I2
+I28
+I5
+I88
+I0
+tp57
+(dp58
+tp59
+Rp60
+sg29
+(lp61
+sg31
+g24
+((I2014
+I3
+I29
+I11
+I30
+I41
+I5
+I88
+I0
+tp62
+(dp63
+tp64
+Rp65
+sbsa(dp66
+g12
+I00
+sg13
+(lp67
+F262.0
+aF150.0
+asg15
+(itiddlywiki
+Tiddler
+p68
+(dp69
+g19
+VThe Lorenz Equations\u000a<<dmath \u005cbegin{aligned}\u000a\u005cdot{x} & = \u005csigma(y-x) \u005c\u005c\u000a\u005cdot{y} & = \u005crho x - y - xz \u005c\u005c\u000a\u005cdot{z} & = -\u005cbeta z + xy\u000a\u005cend{aligned} >>\u000a\u000aThe Cauchy-Schwarz Inequality\u000a<<dmath \u005cleft( \u005csum_{k=1}^n a_k b_k \u005cright)^2 \u005cleq \u005cleft( \u005csum_{k=1}^n a_k^2 \u005cright) \u005cleft( \u005csum_{k=1}^n b_k^2 \u005cright) >>\u000a\u000aA Cross Product Formula\u000a<<dmath \u005cmathbf{V}_1 \u005ctimes \u005cmathbf{V}_2 =  \u005cbegin{vmatrix}\u000a\u005cmathbf{i} & \u005cmathbf{j} & \u005cmathbf{k} \u005c\u005c\u000a\u005cfrac{\u005cpartial X}{\u005cpartial u} &  \u005cfrac{\u005cpartial Y}{\u005cpartial u} & 0 \u005c\u005c\u000a\u005cfrac{\u005cpartial X}{\u005cpartial v} &  \u005cfrac{\u005cpartial Y}{\u005cpartial v} & 0\u000a\u005cend{vmatrix} >>\u000a\u000aThe probability of getting <<math k>> heads when flipping <<math n>> coins is\u000a<<dmath P(E)   = {n \u005cchoose k} p^k (1-p)^{ n-k} >>\u000a\u000aAn Identity of Ramanujan\u000a<<dmath \u005cfrac{1}{\u005cBigl(\u005csqrt{\u005cphi \u005csqrt{5}}-\u005cphi\u005cBigr) e^{\u005cfrac25 \u005cpi}} =\u000a1+\u005cfrac{e^{-2\u005cpi}} {1+\u005cfrac{e^{-4\u005cpi}} {1+\u005cfrac{e^{-6\u005cpi}}\u000a{1+\u005cfrac{e^{-8\u005cpi}} {1+\u005cldots} } } } >>\u000a\u000aA Rogers-Ramanujan Identity\u000a<<dmath 1 +  \u005cfrac{q^2}{(1-q)}+\u005cfrac{q^6}{(1-q)(1-q^2)}+\u005ccdots =\u000a\u005cprod_{j=0}^{\u005cinfty}\u005cfrac{1}{(1-q^{5j+2})(1-q^{5j+3})},\u000a\u005cquad\u005cquad \u005ctext{for $|q|<1$}. >>\u000a\u000aMaxwell's Equations\u000a<<dmath \u005cbegin{aligned}\u000a\u005cnabla \u005ctimes \u005cvec{\u005cmathbf{B}} -\u005c, \u005cfrac1c\u005c, \u005cfrac{\u005cpartial\u005cvec{\u005cmathbf{E}}}{\u005cpartial t} & = \u005cfrac{4\u005cpi}{c}\u005cvec{\u005cmathbf{j}} \u005c\u005c   \u005cnabla \u005ccdot \u005cvec{\u005cmathbf{E}} & = 4 \u005cpi \u005crho \u005c\u005c\u000a\u005cnabla \u005ctimes \u005cvec{\u005cmathbf{E}}\u005c, +\u005c, \u005cfrac1c\u005c, \u005cfrac{\u005cpartial\u005cvec{\u005cmathbf{B}}}{\u005cpartial t} & = \u005cvec{\u005cmathbf{0}} \u005c\u005c\u000a\u005cnabla \u005ccdot \u005cvec{\u005cmathbf{B}} & = 0 \u005cend{aligned} >>\u000a\u000aFinally, while display equations look good for a page of samples, the ability to mix math and text in a paragraph is also important. This expression <<math \u005csqrt{3x-1} + (1+x)^2 >> is an example of an inline equation. As you see, MathJax equations can be used this way as well, without unduly disturbing the spacing between lines.
+p70
+sg21
+Vend
+p71
+sg23
+g24
+((I2014
+I3
+I29
+I17
+I1
+I46
+I5
+I88
+I0
+tp72
+(dp73
+tp74
+Rp75
+sg29
+(lp76
+sg31
+g24
+((I2014
+I3
+I29
+I16
+I34
+I36
+I5
+I88
+I0
+tp77
+(dp78
+tp79
+Rp80
+sbsa(dp81
+g12
+I01
+sg13
+(lp82
+F262.0
+aF289.0
+asg15
+(itiddlywiki
+Tiddler
+p83
+(dp84
+g19
+Vmathjax.twee
+p85
+sg21
+VStoryIncludes
+p86
+sg23
+g24
+((I2014
+I3
+I29
+I17
+I4
+I45
+I5
+I88
+I0
+tp87
+(dp88
+tp89
+Rp90
+sg29
+(lp91
+sg31
+g24
+((I2014
+I3
+I29
+I17
+I2
+I41
+I5
+I88
+I0
+tp92
+(dp93
+tp94
+Rp95
+sbsasS'scale'
+p96
+I1
+sS'snapping'
+p97
+I00
+ss.
