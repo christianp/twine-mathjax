@@ -5,7 +5,7 @@ VC:\u005cUsers\u005cChristian\u005cDocuments\u005cjavascript\u005ctwine\u005cbui
 p2
 sS'saveDestination'
 p3
-VC:\u005cUsers\u005cChristian\u005cmathjax-demo.tws
+VC:\u005cUsers\u005cChristian\u005cDocuments\u005cjavascript\u005ctwine-mathjax\u005cmathjax-demo.tws
 p4
 sS'target'
 p5
@@ -34,7 +34,7 @@ p16
 (dp18
 S'text'
 p19
-VThis is a simple Twine story to show off the MathJax macro.\u000a\u000aUse <code>math</code> to get inline maths: <<math e^{i \u005cpi} + 1 = 0>>\u000a\u000aUse <code>dmath</code> to get display mode maths: <<dmath e^{i \u005cpi} + 1 = 0>>\u000a\u000aYou can spread your TeX across several lines, with no problems\u000a<<dmath \u005cbegin{align}\u000ax &= 1, & y &= 2, \u005c\u005c\u000az &= 3, & w &= 4.\u000a\u005cend{align}>>\u000a\u000aTwine puts content in the page dynamically, so the macro needs to tell MathJax there's new stuff to typeset when you [[move to another passage|end]].
+VThis is a simple Twine story to show off the MathJax macro.\u000a\u000aYou can get the code for this at [[GitHub|http://github.com/christianp/twine-mathjax]].\u000a\u000aUse <code>math</code> to get inline maths: <<math e^{i \u005cpi} + 1 = 0>>\u000aUse <code>dmath</code> to get display mode maths: <<dmath e^{i \u005cpi} + 1 = 0>>\u000aYou can spread your TeX across several lines, with no problems\u000a<<dmath \u005cbegin{align}x &= 1, & y &= 2, \u005c\u005cz &= 3, & w &= 4. \u005cend{align}>>\u000aTwine puts content in the page dynamically, so the macro needs to tell MathJax there's new stuff to typeset when you [[move to another passage|end]].
 p20
 sS'title'
 p21
@@ -48,9 +48,9 @@ p24
 ((I2014
 I3
 I29
-I16
+I17
+I23
 I58
-I25
 I5
 I88
 I0
@@ -229,7 +229,7 @@ tp79
 Rp80
 sbsa(dp81
 g12
-I01
+I00
 sg13
 (lp82
 F262.0
@@ -277,10 +277,62 @@ tp92
 (dp93
 tp94
 Rp95
+sbsa(dp96
+g12
+I00
+sg13
+(lp97
+F262.0
+aF10.0
+asg15
+(itiddlywiki
+Tiddler
+p98
+(dp99
+g19
+Vbody {\u000a	background: white;\u000a	color: black;\u000a	font-size: 24px;\u000a}
+p100
+sg21
+Vmathjax-style
+p101
+sg23
+g24
+((I2014
+I3
+I29
+I17
+I27
+I0
+I5
+I88
+I0
+tp102
+(dp103
+tp104
+Rp105
+sg29
+(lp106
+Vstylesheet
+p107
+asg31
+g24
+((I2014
+I3
+I29
+I17
+I21
+I48
+I5
+I88
+I0
+tp108
+(dp109
+tp110
+Rp111
 sbsasS'scale'
-p96
+p112
 I1
 sS'snapping'
-p97
+p113
 I00
 ss.
