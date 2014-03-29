@@ -21,9 +21,9 @@ For display maths, use `<<dmath>>`.
 Example
 -------
 
-`<<math e^{i \pi} + 1 = 0 >`
+`&lt;&lt;math e^{i \pi} + 1 = 0 &gt;&gt;`
 
-There's an example story in `mathjax-demo.tws`
+There's an example story in `mathjax-demo.tws`. You can play it at [christianp.github.io/mathjax-twine](http://christianp.github.io/mathjax-twine).
 
 
 Licence
