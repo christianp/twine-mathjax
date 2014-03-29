@@ -64,3 +64,8 @@ function mathsMacro(mode) {
 macros['math'] = mathsMacro('inline');
 macros['dmath'] = mathsMacro('display');
 
+
+::Passage mathjax-style [stylesheet]
+.MathJax_Display ~ br {
+	display: none;
+}
